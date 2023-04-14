@@ -1,0 +1,48 @@
+.red{
+    color:red;
+}
+
+#container{
+    border: 1px black solid;
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+#left{
+    border: 1px solid gray;
+    width: 220px;
+    padding: 20px;
+    float: left;
+    margin-bottom: 20px;
+    background-color: gray;
+
+}
+section{
+    border: 1px solid gray;
+    width: 384px;/*컨테이너크기-(#left의테두리*2+넓이+안여백*2)-(section테두리+안여백+좌우간격)-(#right테두리+너비+안여백)*/
+    padding: 20px;
+    margin:0 5px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#right{
+    border: 1px solid gray;
+    width: 220px;
+    padding: 20px;
+    float: right;
+    margin-bottom: 20px;
+    background-color: gray;
+}
+footer{
+    clear: both;
+    border: 1px solid gray;
+    padding: 10px;
+}
+

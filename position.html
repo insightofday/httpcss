@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positioning</title>
+    <style>
+    .conbox{ 
+        /*padding과border가 입력되는 만큼 커짐 */
+        box-sizing: content-box;
+        padding: 20px;
+        border: 2px solid #000;
+    }
+    .borbox{
+        /*padding과border가 입력되는 만큼 작아짐 */
+        box-sizing: border-box;
+        padding: 20px;
+        border: 2px solid #000;
+        position: relative;
+        top: -50px;
+        left:100px
+    }    
+    div p{
+        width: 50px;
+        height: 50px;
+        background-color: pink;
+        font-size: 16px;
+        margin: 5px 0;
+        line-height: 50px;
+        position: absolute;
+    }
+    .fclear{
+        position: relative;
+    }
+    /* .b1{
+        top: 0;
+        left:0;
+    }
+    .b2{
+        top: 0;
+        right: 0;
+    }
+    .b3{
+        left: 0;
+        bottom: 0;
+    }
+    .b4{
+        bottom: 0;
+        right:0
+    }
+    .b5{
+        top: 120px;
+        left:200px;
+    } */
+    .b1{
+        z-index: 999;
+    }
+    h2{
+        width: 100px;
+        height: 50px;
+        background-color: blueviolet;
+        position: fixed;
+        bottom: 30px;
+        right:50px;
+    }
+    .hidden{/*공간은그대로둔채안보이기*/
+        visibility: hidden;
+    }
+    .opacity{ /*투명도조절*/
+        opacity:0.5;
+        position: fixed;
+        bottom:50%;
+        right: 50%;
+
+    }
+
+    </style> 
+    <link href="css/positioning.css" rel="stylesheet">
+</head>
+<body>
+    <div class="conbox">content-box</div>
+    <div class="borbox">border-box</div>
+    <div class="fleft">float:left</div>
+    <div class="fright">float:right</div>
+    <div class="fnone">float:none</div>
+    <div class="fclear">
+        <p class="b1">box1</p>
+        <p class="b2">box2</p>
+        <p class="b3">box3</p>
+        <p class="b4">box4</p>
+        <p class="b5">box5</p>
+    </div>
+    <h2>fixed</h2>
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로" class="hidden">
+    <img src="img/img.jpg" alt="삐에로" class="opacity">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+    <img src="img/img.jpg" alt="삐에로">
+</body>
+</html>

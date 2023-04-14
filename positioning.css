@@ -1,0 +1,25 @@
+div{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    margin-bottom: 10px;
+    line-height: 100px;/*세로로 중간나열*/
+    text-align: center;
+}
+
+.fleft{
+    float: left;
+    background-color: rebeccapurple;
+    width: 200px;
+}
+.fright{
+    float:right;
+}
+.fnone{
+    float:none;
+}
+.fclear{
+    clear: both;
+    width: 300px;
+    height: 300px;
+}

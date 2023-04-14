@@ -1,0 +1,65 @@
+img{
+    width: 200px;
+    height: 300px;
+}
+
+#container{
+    width: 800px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgba(76, 76, 165, 0.315);
+    padding: 10px;
+    overflow: hidden;/*자식요소가 float되어 자식요소가 없어도 float된 자식요소까지
+                        크기로 잡아주는 기능*/
+}
+header img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+nav{width: 500px;
+    float: right;
+
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    /*display:inline-block은 밑과 같음*/
+    float: left;
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+section{
+    width: 80%;
+    float: left;
+    padding: 10px;
+}
+section article{
+    width: 300px;
+    float: left;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 3px;
+    height: 353px;
+    text-align: justify;
+    text-indent: 16px;
+}
+aside{
+    width: 15%;
+    float: right;
+    margin-top: 72px;
+}
+aside img{
+    height: 250px;
+}
+footer{
+    clear: both;
+    text-align: center;
+    padding: 10px;
+}

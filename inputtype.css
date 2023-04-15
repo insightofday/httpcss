@@ -1,0 +1,26 @@
+form{
+	margin: 0 auto; /*가운데정렬*/
+	width:1000px;
+	}
+legend{
+	font-weight:bold;
+	}
+span{
+	color:red;
+	}
+#none{
+	border:none;
+	}
+ul{
+	list-style:none;
+	}	
+form label{
+	width:200px;
+	display:inline-block;
+	}
+fieldset{
+	margin:10px;
+	}
+.left{
+	width:90px;
+	}

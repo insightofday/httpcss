@@ -1,0 +1,30 @@
+*{
+    margin-left: 10px;
+}
+ul li{
+    list-style: none;
+}
+h3{
+    color:darkblue;
+}
+ul li label{
+    float: left;
+    width: 70px;
+}
+body{
+    margin: 0 auto;
+    width: 1000px;
+}
+.marginx{
+    margin-right: 0;
+    margin-left: 0;
+}
+li >input{
+    margin-bottom: 1%;
+}
+input:checked+ span{
+    color: blue;
+}/*클릭하면 글자가 파랗게 변함*/
+span{
+    margin-left: 0;
+}

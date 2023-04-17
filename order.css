@@ -1,25 +1,25 @@
 body{
-	margin:0 auto;
-	width:1000px;
+    margin: 0 auto;
+    width: 1000px;
 }
 legend{
-	color:purple;
-	font-weight:bold;
+    color: purple;
+    font-weight: bold;
 }
 #last{
-	border:none;
-	text-align:center;
+    border: none;
+    text-align: center;
 }
 fieldset{
-	margin:10px;
+    margin: 10px;
 }
-ul{
-	list-style:none;
+ul {
+    list-style:none;
 }
 .textalign label{
-	width:80px;
-	float:left;
+    width: 80px;
+    float: left;
 }
 input{
-	margin-bottom:1%
+    margin-bottom: 1%;
 }

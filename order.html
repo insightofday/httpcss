@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orderlist</title>
+    <link href="css/order.css" rel="stylesheet">
+</head>
+<body>
+    <h2>상품 주문서</h2>
+    <form action="login.jsp" method="post" name="login">
+        <fieldset class="textalign">
+            <legend>개인 정보</legend>
+            <ul>
+                <li><label for="name">이름</label>
+                    <input type="text" id="name" name="name" placeholder="여백없이 입력" max="10" min="2">
+                </li>
+                <li><label for="contact">연락처</label>
+                    <input type="tel" id="contact" name="name" placeholder="연락가능한 번호">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset class="textalign">
+            <legend>배송지 정보</legend>
+            <ul>
+                <li><label for="address">주소</label>
+                    <input type="text" id="address" name="address">
+                </li>
+                <li><label for="tel">전화번호</label>
+                    <input type="tel" id="tel" name="name">
+                </li>
+                <li><label>메모</label>
+                    <textarea cols="30" rows="5" id="textarea" name="textarea"></textarea>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>주문 정보</legend>
+            <ul>
+                <li>
+                    <input type="checkbox" id="seongju" name="cham" value="seongju">
+                    <label for="seongju">경북성주 참외(5kg)</label>
+                    <input type="number" placeholder="0" min="1" max="50"><span>Box</span>
+                </li>
+                <li>
+                    <input type="checkbox" id="youngchun" name="grape" value="grape">
+                    <label for="youngchun">경북영천 포도(5kg)</label>
+                    <input type="number" placeholder="0" min="1" max="50"><span>Box</span>
+                </li>
+                <li>
+                    <input type="checkbox" id="bonghwa" name="watermelon" value="watermelon">
+                    <label for="bonghwa">경북봉화 수박(5kg)</label>
+                    <input type="number" value="0" min="1" max="50"><span>Box</span>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset id="last">
+            <input type="submit" value="주문하기">
+            <input type="reset" value="다시 작성">
+        </fieldset>
+    </form>
+</body>
+</html>
